@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Light Mode (Default) */
+body {
+  background-color: #ffffff;
+  color: #333;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Dark Mode */
+.dark body {
+  background-color: #121212;
+  color: white;
+}
+
+.dark input,
+.dark select,
+.dark button,
+.dark nav {
+  background-color: #1f1f1f;
+  color: white;
+  border: 1px solid #333;
+}
+
+.dark .card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
