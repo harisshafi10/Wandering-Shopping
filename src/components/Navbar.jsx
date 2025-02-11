@@ -5,7 +5,7 @@ import DarkModeToggle from "./ThemeToggle";
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center p-4 bg-gray-100 dark:bg-gray-800 shadow-md">
-    <img src="../../src/assets/shopping-cart.jpg" alt="icon" className="w-[40px]"/>
+    <img src="../../src/assets//shopping-cart.jpg" alt="icon" className="w-[40px]"/>
       <div className=" text-xl font-bold light:text-black dark:text-white">
         <Link to="/" className="text-xl font-bold"> Wandering Shopping </Link>
       </div>
